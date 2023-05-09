@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "prettier": "2.8.7"
+  },
+  "scripts": {
+    "prettier:check": "prettier --check 'styles/**/*.scss''scripts/**/*.{js,jsx,ts,tsx}'",
+    "prettier:fix": "prettier --write 'styles/**/*.scss''scripts/**/*.{js,jsx,ts,tsx}'"
+  }
+}
